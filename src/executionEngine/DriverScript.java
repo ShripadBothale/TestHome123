@@ -20,7 +20,7 @@ public class DriverScript {
         driver.findElement(By.id("login")).click();
         driver.findElement (By.xpath("//*[text()='Log out']")).click();
 //        driver.findElement (By.xpath("//*[@id='wp-admin-bar-logout']")).click();
-       driver.quit();
+      // driver.quit();
 
 		
 	}
